@@ -1,0 +1,49 @@
+{
+  "name": "transactions-parser",
+  "version": "1.0.0",
+  "description": "A robust bank statement parser",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "transactions-parser": "./bin/cli.js",
+    "parse-transactions": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bank",
+    "statement",
+    "parser",
+    "financial",
+    "transaction",
+    "upi",
+    "neft",
+    "banking",
+    "statement-parser",
+    "transactions"
+  ],
+  "author": {
+    "name": "Ashutosh Kumar",
+    "email": "aashu7kumar@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incognion/transactions-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/incognion/transactions-parser/issues"
+  },
+  "homepage": "https://github.com/incognion/transactions-parser#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
